@@ -1,0 +1,15 @@
+.Change_pw_page{
+    width: 450px;
+    height: 45%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 16px;
+}
+.CPW_save:hover{
+    transform:scale(1.0);
+
+
+}
+.CPW_cancel:hover{
+    transform:scale(1.0);
+}

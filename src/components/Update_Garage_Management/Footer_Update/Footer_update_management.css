@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ant-transfer-list {
+    width: 50% !important;
+    height: 100% !important;
+    margin-top: 50px;
+    gap: 5px !important;
+}
+
+.ant-transfer-operation {
+    display: none !important;
+}
+
+.ant-transfer-list-header {
+    /* display: none !important; */
+}
+
+.ant-transfer-list-header-title {
+    display: none;
+}
+
+h2 {
+    position: relative;
+    font-family: 'Poppins';
+    color: #939393;
+    width: 70px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.ant-transfer-list .ant-transfer-list-body .ant-transfer-list-body-search-wrapper .ant-input-affix-wrapper {
+    /* display: none; */
+}
+/* css cho button */
+.Footer_update_owner_button{
+    width: 100px;
+    height: 40px;
+    background: #F9F9F9;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #939393;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.Footer_update_owner_button_save{
+    width: 100px;
+    height: 40px;
+    background: #3634a0;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}

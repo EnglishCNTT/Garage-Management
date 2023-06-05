@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div {
+    margin-bottom: 0;
+}
+
+.img_view_profile {
+    border-radius: 50%;
+}
+
+.container-view {
+    /* Frame 48098312 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px 16px;
+    gap: 32px;
+
+    width: 100%;
+    height: 450px;
+
+    background: #FFFFFF;
+}
+
+.pf-container {
+    display: flex;
+    width: 100%;
+
+}
+
+.avatar {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar img {
+    width: 250px;
+    height: 250px;
+}
+
+.info-wrapper {
+    width: 50%;
+    display: flex;
+}
+
+.info-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title label {
+    width: 119px;
+    height: 24px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+
+    /* Neutral Light/2 */
+
+    color: #939393;
+}
+
+.title .h1 {
+    width: 238px;
+    height: 28px;
+
+    /* Paragraph 1/Medium */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+
+    /* Neutral Dark/1 */
+
+    color: #111111;
+}
+
+hr {
+    margin-top: 24px;
+    width: 1086px;
+    height: 0px;
+
+    /* Neutral Dark/5 */
+
+    border: 1px solid #DDE4EE;
+}
+
+.buttons .update-btn {
+    width: 179px;
+    height: 48px;
+
+    /* Primary/1 */
+
+    background: #8767E1;
+    border-radius: 8px;
+    border-color: white;
+}
+
+
+
+
+.buttons .update-btn a {
+    /* Update Profile */
+
+
+    width: 147px;
+    height: 24px;
+
+    /* Paragraph 3/Medium */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+
+    /* Neutral Dark/6 */
+
+    color: #F1F4F9;
+}
+
+
+.buttons .change-btn {
+    margin-left: 37px;
+
+    width: 179px;
+    height: 48px;
+
+    /* Primary/1 */
+
+    color: white;
+    border-radius: 8px;
+    border-color: #8767E1;
+    background-color: white;
+
+
+}
+
+.buttons .change-btn a {
+    width: 147px;
+    height: 24px;
+
+    /* Paragraph 3/Medium */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    /* Primary/1 */
+
+    color: #8767E1;
+}
+.update-btn:hover{
+    transform: scale(1.0);
+    cursor: pointer;
+}
+.change-btn:hover{
+    transform: scale(1.0);
+    cursor: pointer;
+}

@@ -1,0 +1,259 @@
+.wrapper {
+  display: flex;
+
+}
+
+.container {
+  width: 1500px;
+  /* Adjust the width as needed */
+}
+
+.profile {
+  display: flex;
+}
+
+.image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infor {
+  flex: 1;
+  padding-left: 20px;
+  /* Adjust the spacing as needed */
+}
+
+.image img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.image-wrapper .remove-image {
+  display: none;
+}
+
+.image-wrapper {
+  position: relative;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+
+
+.remove-img {
+  font-size: large;
+  height: 30px;
+  width: 30px;
+  background: #F1F4F9;
+  border: 1px solid #8767E1;
+  border-radius: 5px;
+}
+
+.remove-img:hover {
+  cursor: pointer;
+}
+
+.btn-u {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 1086px;
+  height: 72px;
+  margin-top: 20px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.line {
+  width: 1086px;
+  height: 0px;
+
+  /* Neutral Dark/5 */
+
+  border: 1px solid #DDE4EE;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+}
+
+.container.container_updateProfile_button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  margin-top: 200px;
+  width: 379px;
+  height: 48px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.button_update {
+
+  /* flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 16px; */
+  width: 179px;
+  height: 48px;
+  /* text-align: center;
+  justify-content: center; */
+  /* gap: 8px; */
+  /* background: #FFFFFF;
+  border-radius: 8px;
+ 
+  /* width: 95px;
+  height: 40px; */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 10px;
+
+  text-align: center;
+
+  /* Neutral Dark/6 */
+
+  color: #F1F4F9;
+  background: #8767E1;
+  border: 1px solid #F1F4F9;
+  border-radius: 8px;
+}
+
+.button_cancel {
+
+  /* flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 16px; */
+  width: 179px;
+  height: 48px;
+  /* text-align: center;
+  justify-content: center; */
+  /* gap: 8px; */
+  /* background: #FFFFFF;
+  border-radius: 8px;
+ 
+  /* width: 95px;
+  height: 40px; */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 10px;
+
+  text-align: center;
+
+  /* Neutral Dark/6 */
+
+  color: #8767E1;
+  background: #F1F4F9;
+  border: 1px solid #8767E1;
+  border-radius: 8px;
+}
+
+.button_update:hover {
+  transform: scale(1.0);
+  cursor: pointer;
+}
+
+.button_cancel:hover {
+  transform: scale(1.0);
+  cursor: pointer;
+}
+
+.form-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.dob-phone {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-bottom: 15px;
+  justify-content: space-between;
+
+}
+
+.form-items-dob {
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-items-phone {
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+
+.line {
+  width: 1086px;
+  height: 0px;
+
+  /* Neutral Dark/5 */
+
+  border: 1px solid #DDE4EE;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.image-wrapper img {
+  position: relative;
+  z-index: 1;
+}
+
+.image-wrapper .ant-upload {
+  position: absolute;
+  top: 85px;
+  left: 70px;
+  z-index: 2;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.imgchange {
+  width: 50px !important;
+  height: 40px !important;
+  opacity: 0.5;
+}
